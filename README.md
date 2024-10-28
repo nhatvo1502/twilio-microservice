@@ -1,3 +1,4 @@
+![alt text](<images/twilio-microservice.drawio.png>)
 ### 1. Create Lambda Function
 I use Python 3.12.7 for this project.
 
