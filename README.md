@@ -23,9 +23,9 @@ I bought a number from Twilio and load a few dollars.
 My python code will need Twilio library in order to run. This step will require pip and 7zip.
 
 1. On local computer, create a virtual environment and name it `env`.
-'''
+```
 python -m venv env
-'''
+```
 2. `Activate` the virtual environment.
 '''
 .env/Scripts/Activate
