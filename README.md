@@ -55,7 +55,7 @@ pip install -r requirements.txt --target python
 
 7. Zip `python` folder to `python.zip`.
 ```
-7z a -tzip python.zip python
+7z a -tzip python.zip ./python
 ```
 
 8. Navigate to `AWS Lambda console` > `Layers` > `Create layer` > Upload the zip file.
