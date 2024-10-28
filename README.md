@@ -28,7 +28,9 @@ python -m venv env
 ```
 
 2. `Activate` the virtual environment.
-```.env/Scripts/Activate```
+```
+.env/Scripts/Activate
+```
 
 3. Install twilio and export it into `requirements.txt`.
 ```
@@ -37,16 +39,24 @@ pip freeze > requirements.txt
 ```
 
 4. `Deactivate` virtual envrinment.
-```Deactivate```
+```
+Deactivate
+```
 
 5. Create a new folder and name it `Python`.
-```mkdir -p python```
+```
+mkdir -p python
+```
 
 6. Install packages to this folder.
-```pip install -r requirements.txt --target python```
+```
+pip install -r requirements.txt --target python
+```
 
 7. Zip `python` folder to `python.zip`.
-```7z a -tzip python.zip python```
+```
+7z a -tzip python.zip python
+```
 
 8. Navigate to `AWS Lambda console` > `Layers` > `Create layer` > Upload the zip file.
 ![alt text](<images/image-2.png>)
