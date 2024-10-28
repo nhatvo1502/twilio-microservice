@@ -31,8 +31,10 @@ python -m venv env
 ```.env/Scripts/Activate```
 
 3. Install twilio and export it into `requirements.txt`.
-```pip install twilio
-pip freeze > requirements.txt```
+```
+pip install twilio
+pip freeze > requirements.txt
+```
 
 4. `Deactivate` virtual envrinment.
 ```Deactivate```
