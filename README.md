@@ -50,7 +50,7 @@ mkdir -p python
 
 6. Install packages to this folder.
 ```
-pip install -r requirements.txt --target python
+pip install -r requirements.txt --target ./python
 ```
 
 7. Zip `python` folder to `python.zip`.
